@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <item type="dimen" name="abc_dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">90.0%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">55.000008%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">79.99999%</item>
+    <dimen name="action_bar_height">56.0dip</dimen>
+    <dimen name="action_bar_logo_width">64.0dip</dimen>
+    <dimen name="action_button_padding_v">10.0dip</dimen>
+    <dimen name="action_button_width">52.0dip</dimen>
+    <dimen name="title_size">32.0sp</dimen>
+    <item type="dimen" name="tools_margin_top">@dimen/action_bar_height</item>
+    <dimen name="ui_font_size">20.0sp</dimen>
+</resources>

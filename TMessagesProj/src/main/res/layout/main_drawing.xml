@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:background="@drawable/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/actionbar" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height" layout="@layout/actionbar" />
+    <include android:layout_gravity="bottom" android:id="@id/colors" android:layout_width="fill_parent" android:layout_height="96.0dip" layout="@layout/colors_horizontal" />
+    <include android:layout_gravity="left" android:id="@id/tools" android:layout_width="52.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/action_bar_height" android:layout_marginBottom="96.0dip" layout="@layout/tools" />
+    <org.telegram.ui.Telehgram.drawing.LogoView android:layout_gravity="center|left|top" android:id="@id/logo" android:padding="2.0dip" android:layout_width="@dimen/action_bar_logo_width" android:layout_height="@dimen/action_bar_height" android:src="@drawable/markers" android:onClick="clickLogo" android:alpha="0.5" />
+</FrameLayout>

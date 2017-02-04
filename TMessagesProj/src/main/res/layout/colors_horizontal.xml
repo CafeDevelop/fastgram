@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/colors" android:paddingTop="@dimen/tool_palette_gutter" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ActionBar.Bar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:markers="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff000000" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffffffff" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#00000000" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff404040" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff808080" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffc0c0c0" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff800000" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffff0000" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffff8080" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff008000" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff00ff00" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff80ff80" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff000080" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff0000ff" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff8080ff" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff808000" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffffff00" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffffff80" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff804000" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffff8000" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffffcc80" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff800040" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffff0080" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffff80cc" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff400080" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff8000ff" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffcc80ff" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff402000" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ff804000" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+        <view android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" markers:swatchColor="#ffccaa80" class="org.telegram.ui.Telehgram.drawing.ToolButton$SwatchButton" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="#ffffffff" app:layout_width="fill_parent" app:layout_height="fill_parent"
+  xmlns:app="http://schemas.android.com/apk/res/android">
+    <include app:id="@id/tool_bar" layout="@layout/tool_bar" />
+    <android.support.v7.widget.RecyclerView app:id="@id/recyclerView" app:padding="10.0dip" app:layout_width="fill_parent" app:layout_height="wrap_content" app:layout_below="@id/tool_bar" />
+</RelativeLayout>

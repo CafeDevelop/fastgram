@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:background="#ff000000" android:paddingLeft="@dimen/tool_palette_gutter" android:paddingBottom="@dimen/tool_palette_gutter" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/share" android:src="@drawable/share" android:text="ارسال" android:onClick="clickShare" android:contentDescription="share drawing" style="@style/ActionBar.MenuItem" />
+    <Button android:id="@id/load" android:src="@drawable/load" android:text="گالری" android:onClick="clickLoad" android:contentDescription="load image" style="@style/ActionBar.MenuItem" />
+    <Button android:id="@id/about" android:text="راهنما" android:onClick="clickAbout" android:contentDescription="about markers" style="@style/ActionBar.MenuItem" />
+</LinearLayout>
